@@ -183,20 +183,20 @@ function ggg(){
 			}
 			function gii(){alert("まだ未実装！！");}
 			function tii(){
-			swal("部屋は削除されました","部屋に接続中のユーザーは再読込すると反映されます");
+				swal("部屋は削除されました","部屋に接続中のユーザーは再読込すると反映されます");
 			
 			}
 			function kll(){
-			toto(hh,function(oo){
-			if(oo!=esp){
-			dq=oo.split("@");
-			resu.innerHTML=dq[0];
-			card.innerHTML=dq[1];
-			var mo=dq[2]%60;
-			timer.innerHTML="残り"+((dq[2]-mo)/60)+"分"+mo+"秒";
-			oo=esp;
-			}
-			},"./co.php");
+				toto(hh,function(oo){
+					if(oo!=esp){
+						dq=oo.split("@");
+						resu.innerHTML=dq[0];
+						card.innerHTML=dq[1];
+						var mo=dq[2]%60;
+						timer.innerHTML="残り"+((dq[2]-mo)/60)+"分"+mo+"秒";
+						oo=esp;
+					}
+				},"./co.php");
 			}
 			
 			
